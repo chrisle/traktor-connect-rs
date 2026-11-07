@@ -1,0 +1,14 @@
+[package]
+name = "traktor-connect-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Receive Traktor Ogg Vorbis broadcast track metadata"
+repository = "https://github.com/chrisle/traktor-connect-rs"
+readme = "README.md"
+
+[workspace]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+md5 = "0.7"
